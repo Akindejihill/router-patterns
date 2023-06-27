@@ -47,8 +47,6 @@ function App() {
             newButtons.push(<li><Link to="/colors/new">Add a color</Link></li>);
             return newButtons;
         });
-
-        //navigate("/colors");  //it wont let me use useNavigate anywhere!!
     }
 
     return (

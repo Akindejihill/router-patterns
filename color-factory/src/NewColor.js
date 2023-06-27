@@ -20,7 +20,7 @@ export default function NewColor({addColor}){
     function handleSubmit(evt){
         evt.preventDefault();
         addColor(nameField, hexField);
-        navigate("/colors");  //it says navigate is not a function.  WTH!!
+        navigate("/colors");
     }
 
     const form = (
